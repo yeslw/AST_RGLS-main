@@ -1,0 +1,415 @@
+nohup: ignoring input
+========================================
+Total tasks to run: 165
+Sparsity ratios: 0.4 0.5 0.6 0.7 0.8
+Beta values: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+Seeds: 0 1 2
+Using GPUs: 0 1
+Results will be saved to: grid_search_results.csv
+========================================
+
+Starting experiments at Sat 17 Jan 2026 02:42:48 AM EST
+========================================
+[Task 1/165] GPU:0 | sparsity=0.4, beta=0.0, seed=0
+[Task 2/165] GPU:1 | sparsity=0.4, beta=0.0, seed=1
+[Task 1/165] ✓ Completed: sparsity=0.4, beta=0.0, seed=0, PPL=6.3278045654296875
+[Task 3/165] GPU:0 | sparsity=0.4, beta=0.0, seed=2
+[Task 2/165] ✓ Completed: sparsity=0.4, beta=0.0, seed=1, PPL=6.340604782104492
+[Task 4/165] GPU:1 | sparsity=0.4, beta=0.1, seed=0
+[Task 3/165] ✓ Completed: sparsity=0.4, beta=0.0, seed=2, PPL=6.345947742462158
+[Task 5/165] GPU:0 | sparsity=0.4, beta=0.1, seed=1
+[Task 4/165] ✓ Completed: sparsity=0.4, beta=0.1, seed=0, PPL=6.265689373016357
+[Task 6/165] GPU:1 | sparsity=0.4, beta=0.1, seed=2
+[Task 5/165] ✓ Completed: sparsity=0.4, beta=0.1, seed=1, PPL=6.2795209884643555
+[Task 7/165] GPU:0 | sparsity=0.4, beta=0.2, seed=0
+[Task 7/165] ✓ Completed: sparsity=0.4, beta=0.2, seed=0, PPL=6.2375335693359375
+[Task 8/165] GPU:0 | sparsity=0.4, beta=0.2, seed=1
+[Task 6/165] ✓ Completed: sparsity=0.4, beta=0.1, seed=2, PPL=6.286720275878906
+[Task 9/165] GPU:1 | sparsity=0.4, beta=0.2, seed=2
+[Task 8/165] ✓ Completed: sparsity=0.4, beta=0.2, seed=1, PPL=6.256824970245361
+[Task 10/165] GPU:0 | sparsity=0.4, beta=0.3, seed=0
+[Task 9/165] ✓ Completed: sparsity=0.4, beta=0.2, seed=2, PPL=6.254515647888184
+[Task 11/165] GPU:1 | sparsity=0.4, beta=0.3, seed=1
+[Task 10/165] ✓ Completed: sparsity=0.4, beta=0.3, seed=0, PPL=6.217989444732666
+[Task 12/165] GPU:0 | sparsity=0.4, beta=0.3, seed=2
+[Task 11/165] ✓ Completed: sparsity=0.4, beta=0.3, seed=1, PPL=6.2305684089660645
+[Task 13/165] GPU:1 | sparsity=0.4, beta=0.4, seed=0
+[Task 12/165] ✓ Completed: sparsity=0.4, beta=0.3, seed=2, PPL=6.227127552032471
+[Task 14/165] GPU:0 | sparsity=0.4, beta=0.4, seed=1
+[Task 14/165] ✓ Completed: sparsity=0.4, beta=0.4, seed=1, PPL=6.22059965133667
+[Task 15/165] GPU:0 | sparsity=0.4, beta=0.4, seed=2
+[Task 13/165] ✓ Completed: sparsity=0.4, beta=0.4, seed=0, PPL=6.2108964920043945
+[Task 16/165] GPU:1 | sparsity=0.4, beta=0.5, seed=0
+[Task 15/165] ✓ Completed: sparsity=0.4, beta=0.4, seed=2, PPL=6.220119476318359
+[Task 17/165] GPU:0 | sparsity=0.4, beta=0.5, seed=1
+[Task 16/165] ✓ Completed: sparsity=0.4, beta=0.5, seed=0, PPL=6.208839416503906
+[Task 18/165] GPU:1 | sparsity=0.4, beta=0.5, seed=2
+[Task 17/165] ✓ Completed: sparsity=0.4, beta=0.5, seed=1, PPL=6.21697998046875
+[Task 19/165] GPU:0 | sparsity=0.4, beta=0.6, seed=0
+[Task 18/165] ✓ Completed: sparsity=0.4, beta=0.5, seed=2, PPL=6.2171311378479
+[Task 20/165] GPU:1 | sparsity=0.4, beta=0.6, seed=1
+[Task 19/165] ✓ Completed: sparsity=0.4, beta=0.6, seed=0, PPL=6.215942859649658
+[Task 21/165] GPU:0 | sparsity=0.4, beta=0.6, seed=2
+[Task 21/165] ✓ Completed: sparsity=0.4, beta=0.6, seed=2, PPL=6.218356609344482
+[Task 22/165] GPU:0 | sparsity=0.4, beta=0.7, seed=0
+[Task 20/165] ✓ Completed: sparsity=0.4, beta=0.6, seed=1, PPL=6.219611167907715
+[Task 23/165] GPU:1 | sparsity=0.4, beta=0.7, seed=1
+[Task 22/165] ✓ Completed: sparsity=0.4, beta=0.7, seed=0, PPL=6.2265706062316895
+[Task 24/165] GPU:0 | sparsity=0.4, beta=0.7, seed=2
+[Task 23/165] ✓ Completed: sparsity=0.4, beta=0.7, seed=1, PPL=6.240872383117676
+[Task 25/165] GPU:1 | sparsity=0.4, beta=0.8, seed=0
+[Task 24/165] ✓ Completed: sparsity=0.4, beta=0.7, seed=2, PPL=6.231813430786133
+[Task 26/165] GPU:0 | sparsity=0.4, beta=0.8, seed=1
+[Task 25/165] ✓ Completed: sparsity=0.4, beta=0.8, seed=0, PPL=6.258387088775635
+[Task 27/165] GPU:1 | sparsity=0.4, beta=0.8, seed=2
+[Task 26/165] ✓ Completed: sparsity=0.4, beta=0.8, seed=1, PPL=6.260276794433594
+[Task 28/165] GPU:0 | sparsity=0.4, beta=0.9, seed=0
+[Task 28/165] ✓ Completed: sparsity=0.4, beta=0.9, seed=0, PPL=6.311667442321777
+[Task 29/165] GPU:0 | sparsity=0.4, beta=0.9, seed=1
+[Task 27/165] ✓ Completed: sparsity=0.4, beta=0.8, seed=2, PPL=6.260753154754639
+[Task 30/165] GPU:1 | sparsity=0.4, beta=0.9, seed=2
+[Task 29/165] ✓ Completed: sparsity=0.4, beta=0.9, seed=1, PPL=6.318268775939941
+[Task 31/165] GPU:0 | sparsity=0.4, beta=1.0, seed=0
+[Task 30/165] ✓ Completed: sparsity=0.4, beta=0.9, seed=2, PPL=6.314783096313477
+[Task 32/165] GPU:1 | sparsity=0.4, beta=1.0, seed=1
+[Task 31/165] ✓ Completed: sparsity=0.4, beta=1.0, seed=0, PPL=6.422586917877197
+[Task 33/165] GPU:0 | sparsity=0.4, beta=1.0, seed=2
+[Task 33/165] ✓ Completed: sparsity=0.4, beta=1.0, seed=2, PPL=6.4275407791137695
+[Task 34/165] GPU:0 | sparsity=0.5, beta=0.0, seed=0
+[Task 32/165] ✓ Completed: sparsity=0.4, beta=1.0, seed=1, PPL=6.425321578979492
+[Task 35/165] GPU:1 | sparsity=0.5, beta=0.0, seed=1
+[Task 34/165] ✓ Completed: sparsity=0.5, beta=0.0, seed=0, PPL=7.659546852111816
+[Task 36/165] GPU:0 | sparsity=0.5, beta=0.0, seed=2
+[Task 35/165] ✓ Completed: sparsity=0.5, beta=0.0, seed=1, PPL=7.63147497177124
+[Task 37/165] GPU:1 | sparsity=0.5, beta=0.1, seed=0
+[Task 36/165] ✓ Completed: sparsity=0.5, beta=0.0, seed=2, PPL=7.668046951293945
+[Task 38/165] GPU:0 | sparsity=0.5, beta=0.1, seed=1
+[Task 37/165] ✓ Completed: sparsity=0.5, beta=0.1, seed=0, PPL=7.396425247192383
+[Task 39/165] GPU:1 | sparsity=0.5, beta=0.1, seed=2
+[Task 38/165] ✓ Completed: sparsity=0.5, beta=0.1, seed=1, PPL=7.361572265625
+[Task 40/165] GPU:0 | sparsity=0.5, beta=0.2, seed=0
+[Task 40/165] ✓ Completed: sparsity=0.5, beta=0.2, seed=0, PPL=7.245965480804443
+[Task 41/165] GPU:0 | sparsity=0.5, beta=0.2, seed=1
+[Task 39/165] ✓ Completed: sparsity=0.5, beta=0.1, seed=2, PPL=7.393678665161133
+[Task 42/165] GPU:1 | sparsity=0.5, beta=0.2, seed=2
+[Task 41/165] ✓ Completed: sparsity=0.5, beta=0.2, seed=1, PPL=7.2295074462890625
+[Task 43/165] GPU:0 | sparsity=0.5, beta=0.3, seed=0
+[Task 42/165] ✓ Completed: sparsity=0.5, beta=0.2, seed=2, PPL=7.252309322357178
+[Task 44/165] GPU:1 | sparsity=0.5, beta=0.3, seed=1
+[Task 43/165] ✓ Completed: sparsity=0.5, beta=0.3, seed=0, PPL=7.160994529724121
+[Task 45/165] GPU:0 | sparsity=0.5, beta=0.3, seed=2
+[Task 44/165] ✓ Completed: sparsity=0.5, beta=0.3, seed=1, PPL=7.165155410766602
+[Task 46/165] GPU:1 | sparsity=0.5, beta=0.4, seed=0
+[Task 45/165] ✓ Completed: sparsity=0.5, beta=0.3, seed=2, PPL=7.171926975250244
+[Task 47/165] GPU:0 | sparsity=0.5, beta=0.4, seed=1
+[Task 47/165] ✓ Completed: sparsity=0.5, beta=0.4, seed=1, PPL=7.132659435272217
+[Task 48/165] GPU:0 | sparsity=0.5, beta=0.4, seed=2
+[Task 46/165] ✓ Completed: sparsity=0.5, beta=0.4, seed=0, PPL=7.136848449707031
+[Task 49/165] GPU:1 | sparsity=0.5, beta=0.5, seed=0
+[Task 48/165] ✓ Completed: sparsity=0.5, beta=0.4, seed=2, PPL=7.141778469085693
+[Task 50/165] GPU:0 | sparsity=0.5, beta=0.5, seed=1
+[Task 49/165] ✓ Completed: sparsity=0.5, beta=0.5, seed=0, PPL=7.1219801902771
+[Task 51/165] GPU:1 | sparsity=0.5, beta=0.5, seed=2
+[Task 50/165] ✓ Completed: sparsity=0.5, beta=0.5, seed=1, PPL=7.135308265686035
+[Task 52/165] GPU:0 | sparsity=0.5, beta=0.6, seed=0
+[Task 51/165] ✓ Completed: sparsity=0.5, beta=0.5, seed=2, PPL=7.135432720184326
+[Task 53/165] GPU:1 | sparsity=0.5, beta=0.6, seed=1
+[Task 52/165] ✓ Completed: sparsity=0.5, beta=0.6, seed=0, PPL=7.111410617828369
+[Task 54/165] GPU:0 | sparsity=0.5, beta=0.6, seed=2
+[Task 54/165] ✓ Completed: sparsity=0.5, beta=0.6, seed=2, PPL=7.117748737335205
+[Task 55/165] GPU:0 | sparsity=0.5, beta=0.7, seed=0
+[Task 53/165] ✓ Completed: sparsity=0.5, beta=0.6, seed=1, PPL=7.117444038391113
+[Task 56/165] GPU:1 | sparsity=0.5, beta=0.7, seed=1
+[Task 55/165] ✓ Completed: sparsity=0.5, beta=0.7, seed=0, PPL=7.106589317321777
+[Task 57/165] GPU:0 | sparsity=0.5, beta=0.7, seed=2
+[Task 56/165] ✓ Completed: sparsity=0.5, beta=0.7, seed=1, PPL=7.118278980255127
+[Task 58/165] GPU:1 | sparsity=0.5, beta=0.8, seed=0
+[Task 57/165] ✓ Completed: sparsity=0.5, beta=0.7, seed=2, PPL=7.118808269500732
+[Task 59/165] GPU:0 | sparsity=0.5, beta=0.8, seed=1
+[Task 58/165] ✓ Completed: sparsity=0.5, beta=0.8, seed=0, PPL=7.099827289581299
+[Task 60/165] GPU:1 | sparsity=0.5, beta=0.8, seed=2
+[Task 59/165] ✓ Completed: sparsity=0.5, beta=0.8, seed=1, PPL=7.10689115524292
+[Task 61/165] GPU:0 | sparsity=0.5, beta=0.9, seed=0
+[Task 61/165] ✓ Completed: sparsity=0.5, beta=0.9, seed=0, PPL=7.174768447875977
+[Task 62/165] GPU:0 | sparsity=0.5, beta=0.9, seed=1
+[Task 60/165] ✓ Completed: sparsity=0.5, beta=0.8, seed=2, PPL=7.1268720626831055
+[Task 63/165] GPU:1 | sparsity=0.5, beta=0.9, seed=2
+[Task 62/165] ✓ Completed: sparsity=0.5, beta=0.9, seed=1, PPL=7.176434516906738
+[Task 64/165] GPU:0 | sparsity=0.5, beta=1.0, seed=0
+[Task 63/165] ✓ Completed: sparsity=0.5, beta=0.9, seed=2, PPL=7.18482780456543
+[Task 65/165] GPU:1 | sparsity=0.5, beta=1.0, seed=1
+[Task 64/165] ✓ Completed: sparsity=0.5, beta=1.0, seed=0, PPL=7.27972936630249
+[Task 66/165] GPU:0 | sparsity=0.5, beta=1.0, seed=2
+[Task 65/165] ✓ Completed: sparsity=0.5, beta=1.0, seed=1, PPL=7.282257080078125
+[Task 67/165] GPU:1 | sparsity=0.6, beta=0.0, seed=0
+[Task 66/165] ✓ Completed: sparsity=0.5, beta=1.0, seed=2, PPL=7.286057949066162
+[Task 68/165] GPU:0 | sparsity=0.6, beta=0.0, seed=1
+[Task 68/165] ✓ Completed: sparsity=0.6, beta=0.0, seed=1, PPL=20.807249069213867
+[Task 69/165] GPU:0 | sparsity=0.6, beta=0.0, seed=2
+[Task 67/165] ✓ Completed: sparsity=0.6, beta=0.0, seed=0, PPL=21.538455963134766
+[Task 70/165] GPU:1 | sparsity=0.6, beta=0.1, seed=0
+[Task 69/165] ✓ Completed: sparsity=0.6, beta=0.0, seed=2, PPL=21.614442825317383
+[Task 71/165] GPU:0 | sparsity=0.6, beta=0.1, seed=1
+[Task 70/165] ✓ Completed: sparsity=0.6, beta=0.1, seed=0, PPL=14.614372253417969
+[Task 72/165] GPU:1 | sparsity=0.6, beta=0.1, seed=2
+[Task 71/165] ✓ Completed: sparsity=0.6, beta=0.1, seed=1, PPL=14.652533531188965
+[Task 73/165] GPU:0 | sparsity=0.6, beta=0.2, seed=0
+[Task 72/165] ✓ Completed: sparsity=0.6, beta=0.1, seed=2, PPL=14.79745101928711
+[Task 74/165] GPU:1 | sparsity=0.6, beta=0.2, seed=1
+[Task 73/165] ✓ Completed: sparsity=0.6, beta=0.2, seed=0, PPL=12.590899467468262
+[Task 75/165] GPU:0 | sparsity=0.6, beta=0.2, seed=2
+[Task 75/165] ✓ Completed: sparsity=0.6, beta=0.2, seed=2, PPL=12.716348648071289
+[Task 76/165] GPU:0 | sparsity=0.6, beta=0.3, seed=0
+[Task 74/165] ✓ Completed: sparsity=0.6, beta=0.2, seed=1, PPL=12.597907066345215
+[Task 77/165] GPU:1 | sparsity=0.6, beta=0.3, seed=1
+[Task 76/165] ✓ Completed: sparsity=0.6, beta=0.3, seed=0, PPL=11.582720756530762
+[Task 78/165] GPU:0 | sparsity=0.6, beta=0.3, seed=2
+[Task 77/165] ✓ Completed: sparsity=0.6, beta=0.3, seed=1, PPL=11.510089874267578
+[Task 79/165] GPU:1 | sparsity=0.6, beta=0.4, seed=0
+[Task 78/165] ✓ Completed: sparsity=0.6, beta=0.3, seed=2, PPL=11.658292770385742
+[Task 80/165] GPU:0 | sparsity=0.6, beta=0.4, seed=1
+[Task 79/165] ✓ Completed: sparsity=0.6, beta=0.4, seed=0, PPL=11.011848449707031
+[Task 81/165] GPU:1 | sparsity=0.6, beta=0.4, seed=2
+[Task 80/165] ✓ Completed: sparsity=0.6, beta=0.4, seed=1, PPL=10.9984769821167
+[Task 82/165] GPU:0 | sparsity=0.6, beta=0.5, seed=0
+[Task 82/165] ✓ Completed: sparsity=0.6, beta=0.5, seed=0, PPL=10.567465782165527
+[Task 83/165] GPU:0 | sparsity=0.6, beta=0.5, seed=1
+[Task 81/165] ✓ Completed: sparsity=0.6, beta=0.4, seed=2, PPL=11.084237098693848
+[Task 84/165] GPU:1 | sparsity=0.6, beta=0.5, seed=2
+[Task 83/165] ✓ Completed: sparsity=0.6, beta=0.5, seed=1, PPL=10.565851211547852
+[Task 85/165] GPU:0 | sparsity=0.6, beta=0.6, seed=0
+[Task 84/165] ✓ Completed: sparsity=0.6, beta=0.5, seed=2, PPL=10.634554862976074
+[Task 86/165] GPU:1 | sparsity=0.6, beta=0.6, seed=1
+[Task 85/165] ✓ Completed: sparsity=0.6, beta=0.6, seed=0, PPL=10.378904342651367
+[Task 87/165] GPU:0 | sparsity=0.6, beta=0.6, seed=2
+[Task 86/165] ✓ Completed: sparsity=0.6, beta=0.6, seed=1, PPL=10.393033981323242
+[Task 88/165] GPU:1 | sparsity=0.6, beta=0.7, seed=0
+[Task 87/165] ✓ Completed: sparsity=0.6, beta=0.6, seed=2, PPL=10.453583717346191
+[Task 89/165] GPU:0 | sparsity=0.6, beta=0.7, seed=1
+[Task 89/165] ✓ Completed: sparsity=0.6, beta=0.7, seed=1, PPL=10.213295936584473
+[Task 90/165] GPU:0 | sparsity=0.6, beta=0.7, seed=2
+[Task 88/165] ✓ Completed: sparsity=0.6, beta=0.7, seed=0, PPL=10.225773811340332
+[Task 91/165] GPU:1 | sparsity=0.6, beta=0.8, seed=0
+[Task 90/165] ✓ Completed: sparsity=0.6, beta=0.7, seed=2, PPL=10.294625282287598
+[Task 92/165] GPU:0 | sparsity=0.6, beta=0.8, seed=1
+[Task 91/165] ✓ Completed: sparsity=0.6, beta=0.8, seed=0, PPL=10.065084457397461
+[Task 93/165] GPU:1 | sparsity=0.6, beta=0.8, seed=2
+[Task 92/165] ✓ Completed: sparsity=0.6, beta=0.8, seed=1, PPL=10.07741928100586
+[Task 94/165] GPU:0 | sparsity=0.6, beta=0.9, seed=0
+[Task 93/165] ✓ Completed: sparsity=0.6, beta=0.8, seed=2, PPL=10.12889575958252
+[Task 95/165] GPU:1 | sparsity=0.6, beta=0.9, seed=1
+[Task 94/165] ✓ Completed: sparsity=0.6, beta=0.9, seed=0, PPL=9.989400863647461
+[Task 96/165] GPU:0 | sparsity=0.6, beta=0.9, seed=2
+[Task 96/165] ✓ Completed: sparsity=0.6, beta=0.9, seed=2, PPL=10.003806114196777
+[Task 97/165] GPU:0 | sparsity=0.6, beta=1.0, seed=0
+[Task 95/165] ✓ Completed: sparsity=0.6, beta=0.9, seed=1, PPL=9.987253189086914
+[Task 98/165] GPU:1 | sparsity=0.6, beta=1.0, seed=1
+[Task 97/165] ✓ Completed: sparsity=0.6, beta=1.0, seed=0, PPL=10.013508796691895
+[Task 99/165] GPU:0 | sparsity=0.6, beta=1.0, seed=2
+[Task 98/165] ✓ Completed: sparsity=0.6, beta=1.0, seed=1, PPL=9.93273639678955
+[Task 100/165] GPU:1 | sparsity=0.7, beta=0.0, seed=0
+[Task 99/165] ✓ Completed: sparsity=0.6, beta=1.0, seed=2, PPL=10.012393951416016
+[Task 101/165] GPU:0 | sparsity=0.7, beta=0.0, seed=1
+[Task 100/165] ✓ Completed: sparsity=0.7, beta=0.0, seed=0, PPL=248.85667419433594
+[Task 102/165] GPU:1 | sparsity=0.7, beta=0.0, seed=2
+[Task 101/165] ✓ Completed: sparsity=0.7, beta=0.0, seed=1, PPL=248.38650512695312
+[Task 103/165] GPU:0 | sparsity=0.7, beta=0.1, seed=0
+[Task 102/165] ✓ Completed: sparsity=0.7, beta=0.0, seed=2, PPL=239.9693603515625
+[Task 104/165] GPU:1 | sparsity=0.7, beta=0.1, seed=1
+[Task 103/165] ✓ Completed: sparsity=0.7, beta=0.1, seed=0, PPL=172.4556121826172
+[Task 105/165] GPU:0 | sparsity=0.7, beta=0.1, seed=2
+[Task 105/165] ✓ Completed: sparsity=0.7, beta=0.1, seed=2, PPL=184.89077758789062
+[Task 106/165] GPU:0 | sparsity=0.7, beta=0.2, seed=0
+[Task 104/165] ✓ Completed: sparsity=0.7, beta=0.1, seed=1, PPL=174.59523010253906
+[Task 107/165] GPU:1 | sparsity=0.7, beta=0.2, seed=1
+[Task 106/165] ✓ Completed: sparsity=0.7, beta=0.2, seed=0, PPL=129.0274200439453
+[Task 108/165] GPU:0 | sparsity=0.7, beta=0.2, seed=2
+[Task 107/165] ✓ Completed: sparsity=0.7, beta=0.2, seed=1, PPL=130.85910034179688
+[Task 109/165] GPU:1 | sparsity=0.7, beta=0.3, seed=0
+[Task 108/165] ✓ Completed: sparsity=0.7, beta=0.2, seed=2, PPL=138.34774780273438
+[Task 110/165] GPU:0 | sparsity=0.7, beta=0.3, seed=1
+[Task 109/165] ✓ Completed: sparsity=0.7, beta=0.3, seed=0, PPL=117.041259765625
+[Task 111/165] GPU:1 | sparsity=0.7, beta=0.3, seed=2
+[Task 110/165] ✓ Completed: sparsity=0.7, beta=0.3, seed=1, PPL=108.6991958618164
+[Task 112/165] GPU:0 | sparsity=0.7, beta=0.4, seed=0
+[Task 112/165] ✓ Completed: sparsity=0.7, beta=0.4, seed=0, PPL=104.63722229003906
+[Task 113/165] GPU:0 | sparsity=0.7, beta=0.4, seed=1
+[Task 111/165] ✓ Completed: sparsity=0.7, beta=0.3, seed=2, PPL=113.07649993896484
+[Task 114/165] GPU:1 | sparsity=0.7, beta=0.4, seed=2
+[Task 113/165] ✓ Completed: sparsity=0.7, beta=0.4, seed=1, PPL=104.22222137451172
+[Task 115/165] GPU:0 | sparsity=0.7, beta=0.5, seed=0
+[Task 114/165] ✓ Completed: sparsity=0.7, beta=0.4, seed=2, PPL=102.60782623291016
+[Task 116/165] GPU:1 | sparsity=0.7, beta=0.5, seed=1
+[Task 115/165] ✓ Completed: sparsity=0.7, beta=0.5, seed=0, PPL=93.22541046142578
+[Task 117/165] GPU:0 | sparsity=0.7, beta=0.5, seed=2
+[Task 116/165] ✓ Completed: sparsity=0.7, beta=0.5, seed=1, PPL=86.59319305419922
+[Task 118/165] GPU:1 | sparsity=0.7, beta=0.6, seed=0
+[Task 117/165] ✓ Completed: sparsity=0.7, beta=0.5, seed=2, PPL=90.89327239990234
+[Task 119/165] GPU:0 | sparsity=0.7, beta=0.6, seed=1
+[Task 119/165] ✓ Completed: sparsity=0.7, beta=0.6, seed=1, PPL=89.74040222167969
+[Task 118/165] ✓ Completed: sparsity=0.7, beta=0.6, seed=0, PPL=84.02630615234375
+[Task 120/165] GPU:0 | sparsity=0.7, beta=0.6, seed=2
+[Task 121/165] GPU:1 | sparsity=0.7, beta=0.7, seed=0
+[Task 120/165] ✓ Completed: sparsity=0.7, beta=0.6, seed=2, PPL=85.97846221923828
+[Task 122/165] GPU:0 | sparsity=0.7, beta=0.7, seed=1
+[Task 121/165] ✓ Completed: sparsity=0.7, beta=0.7, seed=0, PPL=80.10111999511719
+[Task 123/165] GPU:1 | sparsity=0.7, beta=0.7, seed=2
+[Task 122/165] ✓ Completed: sparsity=0.7, beta=0.7, seed=1, PPL=81.63113403320312
+[Task 124/165] GPU:0 | sparsity=0.7, beta=0.8, seed=0
+[Task 123/165] ✓ Completed: sparsity=0.7, beta=0.7, seed=2, PPL=81.27299499511719
+[Task 125/165] GPU:1 | sparsity=0.7, beta=0.8, seed=1
+[Task 124/165] ✓ Completed: sparsity=0.7, beta=0.8, seed=0, PPL=76.559814453125
+[Task 126/165] GPU:0 | sparsity=0.7, beta=0.8, seed=2
+[Task 125/165] ✓ Completed: sparsity=0.7, beta=0.8, seed=1, PPL=78.08642578125
+[Task 127/165] GPU:1 | sparsity=0.7, beta=0.9, seed=0
+[Task 126/165] ✓ Completed: sparsity=0.7, beta=0.8, seed=2, PPL=76.6586685180664
+[Task 128/165] GPU:0 | sparsity=0.7, beta=0.9, seed=1
+[Task 128/165] ✓ Completed: sparsity=0.7, beta=0.9, seed=1, PPL=75.66699981689453
+[Task 129/165] GPU:0 | sparsity=0.7, beta=0.9, seed=2
+[Task 127/165] ✓ Completed: sparsity=0.7, beta=0.9, seed=0, PPL=78.08605194091797
+[Task 130/165] GPU:1 | sparsity=0.7, beta=1.0, seed=0
+[Task 129/165] ✓ Completed: sparsity=0.7, beta=0.9, seed=2, PPL=72.09754180908203
+[Task 131/165] GPU:0 | sparsity=0.7, beta=1.0, seed=1
+[Task 130/165] ✓ Completed: sparsity=0.7, beta=1.0, seed=0, PPL=73.73253631591797
+[Task 132/165] GPU:1 | sparsity=0.7, beta=1.0, seed=2
+[Task 131/165] ✓ Completed: sparsity=0.7, beta=1.0, seed=1, PPL=75.39881134033203
+[Task 133/165] GPU:0 | sparsity=0.8, beta=0.0, seed=0
+[Task 132/165] ✓ Completed: sparsity=0.7, beta=1.0, seed=2, PPL=76.7887954711914
+[Task 134/165] GPU:1 | sparsity=0.8, beta=0.0, seed=1
+[Task 133/165] ✓ Completed: sparsity=0.8, beta=0.0, seed=0, PPL=3215.208251953125
+[Task 135/165] GPU:0 | sparsity=0.8, beta=0.0, seed=2
+[Task 135/165] ✓ Completed: sparsity=0.8, beta=0.0, seed=2, PPL=2679.9560546875
+[Task 136/165] GPU:0 | sparsity=0.8, beta=0.1, seed=0
+[Task 134/165] ✓ Completed: sparsity=0.8, beta=0.0, seed=1, PPL=3206.823486328125
+[Task 137/165] GPU:1 | sparsity=0.8, beta=0.1, seed=1
+[Task 136/165] ✓ Completed: sparsity=0.8, beta=0.1, seed=0, PPL=2517.658935546875
+[Task 138/165] GPU:0 | sparsity=0.8, beta=0.1, seed=2
+[Task 137/165] ✓ Completed: sparsity=0.8, beta=0.1, seed=1, PPL=3715.966796875
+[Task 139/165] GPU:1 | sparsity=0.8, beta=0.2, seed=0
+[Task 138/165] ✓ Completed: sparsity=0.8, beta=0.1, seed=2, PPL=2825.5595703125
+[Task 140/165] GPU:0 | sparsity=0.8, beta=0.2, seed=1
+[Task 139/165] ✓ Completed: sparsity=0.8, beta=0.2, seed=0, PPL=2947.41064453125
+[Task 141/165] GPU:1 | sparsity=0.8, beta=0.2, seed=2
+[Task 140/165] ✓ Completed: sparsity=0.8, beta=0.2, seed=1, PPL=2423.79638671875
+[Task 142/165] GPU:0 | sparsity=0.8, beta=0.3, seed=0
+[Task 141/165] ✓ Completed: sparsity=0.8, beta=0.2, seed=2, PPL=2504.778076171875
+[Task 143/165] GPU:1 | sparsity=0.8, beta=0.3, seed=1
+[Task 142/165] ✓ Completed: sparsity=0.8, beta=0.3, seed=0, PPL=2183.799072265625
+[Task 144/165] GPU:0 | sparsity=0.8, beta=0.3, seed=2
+[Task 144/165] ✓ Completed: sparsity=0.8, beta=0.3, seed=2, PPL=3253.406005859375
+[Task 145/165] GPU:0 | sparsity=0.8, beta=0.4, seed=0
+[Task 143/165] ✓ Completed: sparsity=0.8, beta=0.3, seed=1, PPL=2061.537841796875
+[Task 146/165] GPU:1 | sparsity=0.8, beta=0.4, seed=1
+[Task 145/165] ✓ Completed: sparsity=0.8, beta=0.4, seed=0, PPL=2598.396728515625
+[Task 147/165] GPU:0 | sparsity=0.8, beta=0.4, seed=2
+[Task 146/165] ✓ Completed: sparsity=0.8, beta=0.4, seed=1, PPL=2263.42529296875
+[Task 148/165] GPU:1 | sparsity=0.8, beta=0.5, seed=0
+[Task 147/165] ✓ Completed: sparsity=0.8, beta=0.4, seed=2, PPL=1692.0858154296875
+[Task 149/165] GPU:0 | sparsity=0.8, beta=0.5, seed=1
+[Task 148/165] ✓ Completed: sparsity=0.8, beta=0.5, seed=0, PPL=1984.3017578125
+[Task 150/165] GPU:1 | sparsity=0.8, beta=0.5, seed=2
+[Task 149/165] ✓ Completed: sparsity=0.8, beta=0.5, seed=1, PPL=1810.556396484375
+[Task 151/165] GPU:0 | sparsity=0.8, beta=0.6, seed=0
+[Task 150/165] ✓ Completed: sparsity=0.8, beta=0.5, seed=2, PPL=2360.510009765625
+[Task 152/165] GPU:1 | sparsity=0.8, beta=0.6, seed=1
+[Task 151/165] ✓ Completed: sparsity=0.8, beta=0.6, seed=0, PPL=2353.80224609375
+[Task 153/165] GPU:0 | sparsity=0.8, beta=0.6, seed=2
+[Task 153/165] ✓ Completed: sparsity=0.8, beta=0.6, seed=2, PPL=2581.47509765625
+[Task 154/165] GPU:0 | sparsity=0.8, beta=0.7, seed=0
+[Task 152/165] ✓ Completed: sparsity=0.8, beta=0.6, seed=1, PPL=3184.484619140625
+[Task 155/165] GPU:1 | sparsity=0.8, beta=0.7, seed=1
+[Task 154/165] ✓ Completed: sparsity=0.8, beta=0.7, seed=0, PPL=2304.537353515625
+[Task 156/165] GPU:0 | sparsity=0.8, beta=0.7, seed=2
+[Task 155/165] ✓ Completed: sparsity=0.8, beta=0.7, seed=1, PPL=2647.37744140625
+[Task 157/165] GPU:1 | sparsity=0.8, beta=0.8, seed=0
+[Task 156/165] ✓ Completed: sparsity=0.8, beta=0.7, seed=2, PPL=2697.5205078125
+[Task 158/165] GPU:0 | sparsity=0.8, beta=0.8, seed=1
+[Task 157/165] ✓ Completed: sparsity=0.8, beta=0.8, seed=0, PPL=2469.127685546875
+[Task 159/165] GPU:1 | sparsity=0.8, beta=0.8, seed=2
+[Task 158/165] ✓ Completed: sparsity=0.8, beta=0.8, seed=1, PPL=2541.970703125
+[Task 160/165] GPU:0 | sparsity=0.8, beta=0.9, seed=0
+[Task 160/165] ✓ Completed: sparsity=0.8, beta=0.9, seed=0, PPL=3394.53466796875
+[Task 161/165] GPU:0 | sparsity=0.8, beta=0.9, seed=1
+[Task 159/165] ✓ Completed: sparsity=0.8, beta=0.8, seed=2, PPL=2664.28369140625
+[Task 162/165] GPU:1 | sparsity=0.8, beta=0.9, seed=2
+[Task 161/165] ✓ Completed: sparsity=0.8, beta=0.9, seed=1, PPL=3792.33056640625
+[Task 163/165] GPU:0 | sparsity=0.8, beta=1.0, seed=0
+[Task 162/165] ✓ Completed: sparsity=0.8, beta=0.9, seed=2, PPL=4163.2451171875
+[Task 164/165] GPU:1 | sparsity=0.8, beta=1.0, seed=1
+[Task 163/165] ✓ Completed: sparsity=0.8, beta=1.0, seed=0, PPL=3636.067626953125
+[Task 165/165] GPU:0 | sparsity=0.8, beta=1.0, seed=2
+
+Waiting for remaining tasks to complete...
+[Task 164/165] ✓ Completed: sparsity=0.8, beta=1.0, seed=1, PPL=3630.859375
+[Task 165/165] ✓ Completed: sparsity=0.8, beta=1.0, seed=2, PPL=7695.92578125
+
+========================================
+All experiments completed at Sat 17 Jan 2026 11:10:50 AM EST
+========================================
+
+Generating averaged results...
+
+========================================
+Results saved to:
+  - Raw data: grid_search_results.csv
+  - Summary (averaged): grid_search_summary.csv
+========================================
+
+=== Summary Table (Mean PPL) ===
+
+sparsity  beta  ppl_mean   ppl_std    ppl_seed0  ppl_seed1  ppl_seed2
+0.4       0.0   6.3381     0.0076     6.3278     6.3406     6.3459
+0.4       0.1   6.2773     0.0087     6.2657     6.2795     6.2867
+0.4       0.2   6.2496     0.0086     6.2375     6.2568     6.2545
+0.4       0.3   6.2252     0.0053     6.2180     6.2306     6.2271
+0.4       0.4   6.2172     0.0045     6.2109     6.2206     6.2201
+0.4       0.5   6.2143     0.0039     6.2088     6.2170     6.2171
+0.4       0.6   6.2180     0.0015     6.2159     6.2196     6.2184
+0.4       0.7   6.2331     0.0059     6.2266     6.2409     6.2318
+0.4       0.8   6.2598     0.0010     6.2584     6.2603     6.2608
+0.4       0.9   6.3149     0.0027     6.3117     6.3183     6.3148
+0.4       1.0   6.4251     0.0020     6.4226     6.4253     6.4275
+0.5       0.0   7.6530     0.0156     7.6595     7.6315     7.6680
+0.5       0.1   7.3839     0.0158     7.3964     7.3616     7.3937
+0.5       0.2   7.2426     0.0096     7.2460     7.2295     7.2523
+0.5       0.3   7.1660     0.0045     7.1610     7.1652     7.1719
+0.5       0.4   7.1371     0.0037     7.1368     7.1327     7.1418
+0.5       0.5   7.1309     0.0063     7.1220     7.1353     7.1354
+0.5       0.6   7.1155     0.0029     7.1114     7.1174     7.1177
+0.5       0.7   7.1146     0.0056     7.1066     7.1183     7.1188
+0.5       0.8   7.1112     0.0115     7.0998     7.1069     7.1269
+0.5       0.9   7.1787     0.0044     7.1748     7.1764     7.1848
+0.5       1.0   7.2827     0.0026     7.2797     7.2823     7.2861
+0.6       0.0   21.3200    0.3639     21.5385    20.8072    21.6144
+0.6       0.1   14.6881    0.0789     14.6144    14.6525    14.7975
+0.6       0.2   12.6351    0.0576     12.5909    12.5979    12.7163
+0.6       0.3   11.5837    0.0605     11.5827    11.5101    11.6583
+0.6       0.4   11.0315    0.0377     11.0118    10.9985    11.0842
+0.6       0.5   10.5893    0.0320     10.5675    10.5659    10.6346
+0.6       0.6   10.4085    0.0324     10.3789    10.3930    10.4536
+0.6       0.7   10.2446    0.0358     10.2258    10.2133    10.2946
+0.6       0.8   10.0905    0.0276     10.0651    10.0774    10.1289
+0.6       0.9   9.9935     0.0073     9.9894     9.9873     10.0038
+0.6       1.0   9.9862     0.0378     10.0135    9.9327     10.0124
+0.7       0.0   245.7375   4.0832     248.8567   248.3865   239.9694
+0.7       0.1   177.3139   5.4284     172.4556   174.5952   184.8908
+0.7       0.2   132.7448   4.0319     129.0274   130.8591   138.3477
+0.7       0.3   112.9390   3.4070     117.0413   108.6992   113.0765
+0.7       0.4   103.8224   0.8754     104.6372   104.2222   102.6078
+0.7       0.5   90.2373    2.7470     93.2254    86.5932    90.8933
+0.7       0.6   86.5817    2.3715     84.0263    89.7404    85.9785
+0.7       0.7   81.0017    0.6534     80.1011    81.6311    81.2730
+0.7       0.8   77.1016    0.6975     76.5598    78.0864    76.6587
+0.7       0.9   75.2835    2.4598     78.0861    75.6670    72.0975
+0.7       1.0   75.3067    1.2494     73.7325    75.3988    76.7888
+0.8       0.0   3033.9959  250.3674   3215.2083  3206.8235  2679.9561
+0.8       0.1   3019.7284  508.1086   2517.6589  3715.9668  2825.5596
+0.8       0.2   2625.3284  230.1337   2947.4106  2423.7964  2504.7781
+0.8       0.3   2499.5810  535.3666   2183.7991  2061.5378  3253.4060
+0.8       0.4   2184.6359  374.1708   2598.3967  2263.4253  1692.0858
+0.8       0.5   2051.7894  229.5331   1984.3018  1810.5564  2360.5100
+0.8       0.6   2706.5873  350.4741   2353.8022  3184.4846  2581.4751
+0.8       0.7   2549.8118  174.6391   2304.5374  2647.3774  2697.5205
+0.8       0.8   2558.4607  80.5208    2469.1277  2541.9707  2664.2837
+0.8       0.9   3783.3701  313.8887   3394.5347  3792.3306  4163.2451
+0.8       1.0   4987.6176  1915.0643  3636.0676  3630.8594  7695.9258

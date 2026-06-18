@@ -1,0 +1,53 @@
+CUDA_VISIBLE_DEVICES=0
+CUDA_VISIBLE_DEVICES=1 
+
+python main.py \
+	--model /home/disk1/data/Dataset_Share/decapoda-research-llama-7B-hf \
+	--prune_method ria \
+	--sparsity_ratio 0.5 \
+	--sparsity_type unstructured \
+	
+
+baseline原始信息：
+50%：  ria：wikitext perplexity 7.129837989807129  wanda:wikitext perplexity 7.964601993560791  sparseGpt:wikitext perplexity 7.308104991912842
+70%：  ria:wikitext perplexity 93.69222259521484  wanda：wikitext perplexity 253.742431640625   sparseGpt:wikitext perplexity 27.050331115722656
+
+
+CUDA_VISIBLE_DEVICES=1 python main.py \
+	--model /home/disk1/data/Dataset_Share/decapoda-research-llama-7B-hf \
+	--prune_method ria \
+	--sparsity_ratio 0.5 \
+	--sparsity_type unstructured \
+	
+# 使用 AST 自适应模式
+python main.py \
+    --model /home/disk1/data/Dataset_Share/decapoda-research-llama-7B-hf \
+    --prune_method ria \
+    --sparsity_ratio 0.5 \
+    --adaptive
+
+
+	mean       std
+sparsity                     
+0.4        6.214317  0.004744
+0.5        7.113327  0.010765
+0.6       10.025585  0.010153
+0.7       76.870061  0.980025
+
+python main.py \
+    --model /home/disk1/data/Dataset_Share/decapoda-research-llama-7B-hf \
+    --prune_method ria \
+    --sparsity_ratio 0.7 \
+    --adaptive \
+    --refill_method swap \
+    --swap_ratio 0.005 \
+    --swap_candidate_bandwidth 0.002 \
+    --swap_alpha 0.2 \
+	--refill_clip_residual 5 \
+	--refill_calib_batches 32 
+
+
+
+
+
+
